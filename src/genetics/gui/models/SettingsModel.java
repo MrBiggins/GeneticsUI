@@ -9,9 +9,9 @@ import javax.swing.*;
  */
 public class SettingsModel {
 
-    public int POPULATION_COUNT=0;
+    public int POPULATION_COUNT=10;
 
-    public float MUTATION_LIKELIHOOD=0.0f;
+    public float MUTATION_LIKELIHOOD=5.0f;
 
 
     public int getpopulation() {
