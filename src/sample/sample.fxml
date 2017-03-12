@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="371.0" prefWidth="573.0">
+            <children>
+                <SplitPane dividerPositions="0.29797979797979796" layoutX="14.0" layoutY="14.0" prefHeight="346.0" prefWidth="545.0">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="344.0" prefWidth="177.0">
+                            <children>
+                                <Button layoutX="14.0" layoutY="303.0" mnemonicParsing="false" onAction="#startGenetics" text="Start" />
+                                <TextField fx:id="likeHoodTxt" layoutX="87.0" layoutY="41.0" prefHeight="27.0" prefWidth="66.0" />
+                                <Label layoutX="7.0" layoutY="46.0" text="Likehood %:" />
+                                <TextField layoutX="87.0" layoutY="92.0" fx:id="populationTxt" prefHeight="27.0" prefWidth="66.0" />
+                                <Label layoutX="9.0" layoutY="97.0" text="Population:" />
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="344.0" prefWidth="427.0">
+                            <children>
+                                <ListView fx:id="logList" layoutX="14.0" layoutY="14.0" prefHeight="319.0" prefWidth="351.0" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+            </children>
+        </AnchorPane>
+    </children>
+</Pane>
